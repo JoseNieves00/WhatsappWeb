@@ -120,7 +120,7 @@ const Messages = ({ userP, onRefreshData }) => {
                 enviar();
               }}
             >
-              <img src="../public/enviar.png " />
+              <img src="https://img.icons8.com/?size=256&id=59854&format=png " />
             </button>
           </form>
         </div>
