@@ -10,8 +10,6 @@
 .logo-loader {
   width: fit-content;
   height: fit-content;
-  display: flex;
-  justify-content: center;
 }
 
 .creditos-loader {
