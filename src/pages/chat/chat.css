@@ -353,6 +353,10 @@
   background-color: #4eac6d;
 }
 
+#message-form .btn-enviar img{
+  width:30px;
+}
+
 #message-form .btn-enviar:hover {
   transition: 0.05s;
   background-color: #389055;
