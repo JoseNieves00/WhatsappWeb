@@ -8,15 +8,10 @@
 }
 
 .logo-loader {
-  width: 35%;
+  width: fit-content;
   height: fit-content;
   display: flex;
   justify-content: center;
-}
-
-.logo-loader img {
-  width: 350px;
-  height: fit-content;
 }
 
 .creditos-loader {
