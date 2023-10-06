@@ -1,0 +1,111 @@
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #4eac6d;
+}
+
+.login .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .text h3 {
+  margin: 0px;
+  font-size: 1.64062rem;
+}
+
+.logo {
+  display: flex;
+  width: 35%;
+  height: fit-content;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+
+.inc-cont {
+  width: 58%;
+  height: 85%;
+  background-color: white;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border: 0px;
+  border-radius: 15px;
+  gap: 8%;
+}
+
+.inc-cont form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 10px;
+}
+
+.inc-cont form input {
+  background-color: white;
+  border: 1px solid lightgray;
+  height: 25px;
+  border-radius: 5px;
+  padding: 7px 13px;
+  color: black;
+}
+
+.inc-cont .rmb-cont {
+  transform: scale(0.9);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-left: -9px;
+}
+
+.inc-cont form .login-btn {
+  background-color: #4eac6d;
+}
+
+.inc-cont form .login-btn:hover {
+  transition: 0.5s;
+  background-color: #389055;
+}
+
+.inc-cont form .register-cont {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.inc-cont form .register-cont p {
+  opacity: 70%;
+}
+
+.inc-cont form .register-cont a {
+  cursor: pointer;
+  color: #4eac6d;
+  text-decoration: underline;
+}
+
+.inc-cont form .register-cont a:hover {
+  transition: 0.5s;
+  color: #389055;
+}
+
+.creditos {
+  color: black;
+  opacity: 70%;
+}
